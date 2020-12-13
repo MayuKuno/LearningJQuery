@@ -4,7 +4,7 @@ $(function(){
 
     // buttons2 ----------------------------------------
     $('#buttons2 button').each(function(index){
-        //var pos = Math.random() * 80 - 40;
+        // var pos = Math.random() * 80 - 40;
         var pos = index * 40 - 40;
         $(this).css('top', pos);
     })
